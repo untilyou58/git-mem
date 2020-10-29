@@ -96,7 +96,7 @@ alias l='git log --pretty=oneline -n 20 --graph --abbrev-commit'
 alias gg='git grep --textconv'
 ```
 
-````
+```
 [alias]
     di = !"d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD -- || clear; d"
 
